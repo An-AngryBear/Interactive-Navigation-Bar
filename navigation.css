@@ -1,0 +1,34 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+nav {
+	height: 2em;
+	background-color: salmon;
+	text-align: center;
+	border-bottom: 1px solid black;
+	box-shadow: 0 0 20px black;
+	font-size: 1.4em;
+	padding: 1em;
+}
+a {
+	text-decoration: none;
+	padding: .5em;
+}
+li {
+	display: inline;
+	padding: .4em;
+
+}
+a :hover {
+	background-color: white;
+	color: darkred;
+	font-weight: bolder;
+}
+
+a:focus {
+	padding-left: 2em;
+	padding-right: 2em;
+	background-color: lightblue;
+}
