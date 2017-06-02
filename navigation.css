@@ -21,7 +21,7 @@ li {
 	padding: .4em;
 
 }
-a :hover {
+a:hover {
 	background-color: white;
 	color: darkred;
 	font-weight: bolder;
